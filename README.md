@@ -37,3 +37,33 @@ Edit the `options/brats.yaml` file for testing configuration and run the followi
 ```bash
 python test.py options/brats.yaml
 ```
+
+## Datasets
+
+Download the datasets through the official channels and rearrange the files according to the following structure. The dataset path can be modified in the `options/brats.yaml` file.
+
+### BraTS2020
+
+```text
+BraTS2020_Train
+├── flair
+│   ├── BraTS20_Training_001_flair.nii.gz
+│   ├── BraTS20_Training_002_flair.nii.gz
+│   ├── BraTS20_Training_003_flair.nii.gz
+│   └── ...
+├── t2
+│   ├── BraTS20_Training_001_t2.nii.gz
+│   ├── BraTS20_Training_002_t2.nii.gz
+│   ├── BraTS20_Training_003_t2.nii.gz
+│   └── ...
+├── t1
+│   ├── BraTS20_Training_001_t1.nii.gz
+│   ├── BraTS20_Training_002_t1.nii.gz
+│   ├── BraTS20_Training_003_t1.nii.gz
+│   └── ...
+└── t1ce
+    ├── BraTS20_Training_001_t1ce.nii.gz
+    ├── BraTS20_Training_002_t1ce.nii.gz
+    ├── BraTS20_Training_003_t1ce.nii.gz
+    └── ...
+```
