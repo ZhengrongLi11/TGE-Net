@@ -20,24 +20,6 @@
 >
 > **(ii) Fisher Evidential Discrimination (FED)** enables uncertainty-aware adversarial discrimination by converting patch-wise real/fake logits into Dirichlet evidence distributions, thereby providing reliable adversarial supervision.
 
-## Usage
-
-### Train
-
-Edit the `options/brats.yaml` file for training configuration and run the following command to train.
-
-```bash
-python train.py options/brats.yaml
-```
-
-### Test
-
-Edit the `options/brats.yaml` file for testing configuration and run the following command to test.
-
-```bash
-python test.py options/brats.yaml
-```
-
 ## Datasets
 
 Download the datasets through the official channels and rearrange the files according to the following structure. The dataset path can be modified in the `options/brats.yaml` file.
@@ -92,4 +74,22 @@ BraTS2023_Train
     ├── BraTS23_Training_002_t1ce.nii.gz
     ├── BraTS23_Training_003_t1ce.nii.gz
     └── ...
+```
+
+## Usage
+
+### Train
+
+Edit the `options/brats.yaml` file for training configuration and run the following command to train.
+
+```bash
+python train.py options/brats.yaml
+```
+
+### Test
+
+Edit the `options/brats.yaml` file for testing configuration and run the following command to test.
+
+```bash
+python test.py options/brats.yaml
 ```
