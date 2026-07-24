@@ -4,8 +4,6 @@
 
 ## Overview
 
-## Overview
-
 <p align="center">
   <img
     src="https://github.com/user-attachments/assets/cf273664-3d5c-4c23-8cc5-f2bf4a5ba7a9"
