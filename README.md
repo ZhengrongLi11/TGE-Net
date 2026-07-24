@@ -1,6 +1,6 @@
 # Geometry-Aligned Multimodal Generation with Evidential Discrimination for Text-Conditioned Brain T1CE MRI Synthesis
 
-## Overview
+## The overview of our TGE-Net framework
 
 <p align="center">
   <img
@@ -17,3 +17,21 @@
 > **(i) Multimodal Geometric Alignment (MGA)** reduces representation drift across multimodal images and text by minimizing the Gramian-volume-based discrepancy among multimodal feature embeddings in a shared geometric space.
 >
 > **(ii) Fisher Evidential Discrimination (FED)** enables uncertainty-aware adversarial discrimination by converting patch-wise real/fake logits into Dirichlet evidence distributions, thereby providing reliable adversarial supervision.
+
+## Usage
+
+### Train
+
+Edit the `.yaml` file of the corresponding dataset for training configuration and run the following command to train.
+
+```bash
+python train.py options/brats.yaml
+```
+
+### Test
+
+Edit the `.yaml` file of the corresponding dataset for testing configuration and run the following command to test.
+
+```bash
+python test.py options/brats.yaml
+```
