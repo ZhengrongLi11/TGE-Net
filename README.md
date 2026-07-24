@@ -22,10 +22,12 @@
 
 ## Datasets
 
-Download the datasets through the official channels and rearrange the files according to the following structure. The dataset path can be modified in the `options/brats.yaml` file.
+Download the datasets from their official websites:
 
 - [BraTS 2020](https://www.med.upenn.edu/cbica/brats2020/data.html)
 - [BraTS-PEDs](https://www.cancerimagingarchive.net/collection/brats-peds/)
+
+After downloading, reorganize the files according to the directory structure shown below. The dataset path can be configured in `options/brats.yaml`.
 
 ### BraTS2020
 
