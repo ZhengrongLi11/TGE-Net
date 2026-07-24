@@ -12,8 +12,8 @@ continue_train: False
 
 crop_size: 256
 
-dataroot: /data2/users/lzr/BraTS2020/AE-GAN-BraTS2020/AE-GAN-BraTS2020_train
-test_dataroot: /data2/users/lzr/BraTS2020/AE-GAN-BraTS2020/AE-GAN-BraTS2020_test
+dataroot: /data2/users/lzr/BraTS2020/BraTS2020_train
+test_dataroot: /data2/users/lzr/BraTS2020/BraTS2020_test
 
 dataset: brats
 dataset_mode: all
