@@ -93,3 +93,19 @@ Edit the `options/brats.yaml` file for testing configuration and run the followi
 ```bash
 python test.py options/brats.yaml
 ```
+
+## Results
+
+The qualitative visualization results of TGE-Net are shown below.
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/e5c1f819-11d6-47d8-a177-bda488fe2389"
+    alt="Fig 3"
+    width="700"
+  />
+</p>
+
+<p align="center">
+  <em>Qualitative comparison of T1CE MRI synthesis results.</em>
+</p>
