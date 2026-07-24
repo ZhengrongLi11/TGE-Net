@@ -78,6 +78,21 @@ BraTS2023_Train
 
 ## Usage
 
+### Text Encoder
+
+Download the pretrained text encoder from [Hugging Face](https://huggingface.co/pqt33/bert_model/tree/main), and place the downloaded files in the `bert_model/` directory according to the following structure.
+
+```text
+bert_model/
+├── Bio_ClinicalBERT/
+│   ├── config.json
+│   ├── flax_model.msgpack
+│   └── ...
+├── bert_config.py
+├── med.py
+└── TextEncoder.py
+```
+
 ### Train
 
 Edit the `options/brats.yaml` file for training configuration and run the following command to train.
