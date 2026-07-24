@@ -1,6 +1,10 @@
-# Geometry-Aligned Multimodal Generation with Evidential Discrimination for Text-Conditioned Brain T1CE MRI Synthesis
+<h1 align="center">
+  Geometry-Aligned Multimodal Generation with Evidential Discrimination for Text-Conditioned Brain T1CE MRI Synthesis
+</h1>
 
-## The overview of our TGE-Net framework
+## Overview
+
+## Overview
 
 <p align="center">
   <img
@@ -22,7 +26,7 @@
 
 ### Train
 
-Edit the `.yaml` file of the corresponding dataset for training configuration and run the following command to train.
+Edit the `options/brats.yaml` file for training configuration and run the following command to train.
 
 ```bash
 python train.py options/brats.yaml
@@ -30,7 +34,7 @@ python train.py options/brats.yaml
 
 ### Test
 
-Edit the `.yaml` file of the corresponding dataset for testing configuration and run the following command to test.
+Edit the `options/brats.yaml` file for testing configuration and run the following command to test.
 
 ```bash
 python test.py options/brats.yaml
