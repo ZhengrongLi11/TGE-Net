@@ -47,23 +47,49 @@ Download the datasets through the official channels and rearrange the files acco
 ```text
 BraTS2020_Train
 ├── flair
-│   ├── BraTS20_Training_001_flair.nii.gz
-│   ├── BraTS20_Training_002_flair.nii.gz
-│   ├── BraTS20_Training_003_flair.nii.gz
+│   ├── BraTS20_Training_001_flair.nii
+│   ├── BraTS20_Training_002_flair.nii
+│   ├── BraTS20_Training_003_flair.nii
 │   └── ...
 ├── t2
-│   ├── BraTS20_Training_001_t2.nii.gz
-│   ├── BraTS20_Training_002_t2.nii.gz
-│   ├── BraTS20_Training_003_t2.nii.gz
+│   ├── BraTS20_Training_001_t2.nii
+│   ├── BraTS20_Training_002_t2.nii
+│   ├── BraTS20_Training_003_t2.nii
 │   └── ...
 ├── t1
-│   ├── BraTS20_Training_001_t1.nii.gz
-│   ├── BraTS20_Training_002_t1.nii.gz
-│   ├── BraTS20_Training_003_t1.nii.gz
+│   ├── BraTS20_Training_001_t1.nii
+│   ├── BraTS20_Training_002_t1.nii
+│   ├── BraTS20_Training_003_t1.nii
 │   └── ...
 └── t1ce
-    ├── BraTS20_Training_001_t1ce.nii.gz
-    ├── BraTS20_Training_002_t1ce.nii.gz
-    ├── BraTS20_Training_003_t1ce.nii.gz
+    ├── BraTS20_Training_001_t1ce.nii
+    ├── BraTS20_Training_002_t1ce.nii
+    ├── BraTS20_Training_003_t1ce.nii
+    └── ...
+```
+
+### BraTS-PEDs
+
+```text
+BraTS2023_Train
+├── flair
+│   ├── BraTS23_Training_001_flair.nii.gz
+│   ├── BraTS23_Training_002_flair.nii.gz
+│   ├── BraTS23_Training_003_flair.nii.gz
+│   └── ...
+├── t2
+│   ├── BraTS23_Training_001_t2.nii.gz
+│   ├── BraTS23_Training_002_t2.nii.gz
+│   ├── BraTS23_Training_003_t2.nii.gz
+│   └── ...
+├── t1
+│   ├── BraTS23_Training_001_t1.nii.gz
+│   ├── BraTS23_Training_002_t1.nii.gz
+│   ├── BraTS23_Training_003_t1.nii.gz
+│   └── ...
+└── t1ce
+    ├── BraTS23_Training_001_t1ce.nii.gz
+    ├── BraTS23_Training_002_t1ce.nii.gz
+    ├── BraTS23_Training_003_t1ce.nii.gz
     └── ...
 ```
