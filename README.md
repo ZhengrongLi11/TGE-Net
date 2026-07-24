@@ -80,7 +80,7 @@ BraTS2023_Train
 
 ### Text Encoder
 
-Download the pretrained text encoder from [Hugging Face](https://huggingface.co/pqt33/bert_model/tree/main), and place the downloaded files in the `bert_model/` directory according to the following structure.
+Download the pretrained text encoder from [Bio_ClinicalBERT](https://huggingface.co/pqt33/bert_model/tree/main), and place the downloaded files in the `bert_model/` directory according to the following structure.
 
 ```text
 bert_model/
